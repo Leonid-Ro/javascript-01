@@ -48,6 +48,6 @@ switch (true) {
     case nam < 0:
         console.log('Отрицательный.');
         break;
-   default:
+    default:
         console.log('Ноль.');
 }
