@@ -23,4 +23,6 @@ switch (true) {
         break;
 }
 
-console.log(`${result == 22 ? 'Успех!!!' : result == -8 ? 'Успех!!!' : result == 'Я не робот!' ? 'Успех!!!' : 'Вы - робот!!!' }`);
+console.log(`${Number(result) === 22 ? 'Успех!!!' : Number(result) === -8 ? 'Успех!!!' : result === 'Я не робот!' ? 'Успех!!!' : 'Вы - робот!!!' }`);
+const res = `${Number(result) === 22 || Number(result) === -8 || result === 'Я не робот!' ? 'Успех! Да!' : 'Вы есть робот!'}`;
+console.log(res);
