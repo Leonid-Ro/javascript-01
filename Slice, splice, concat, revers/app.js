@@ -1,7 +1,7 @@
 const roles = ['user', 'admin', 'manager', 'superuser'];
 
 //slice
-const res = roles.slice(2);
+/*const res = roles.slice(2);
 console.log(roles);
 console.log(res);
 
@@ -18,17 +18,17 @@ console.log(roles);
 console.log(res4);
 
 // splice
-//const res5 = roles.splice(2);
-//console.log(roles);
-//console.log(res5);
+const res5 = roles.splice(2);
+console.log(roles);
+console.log(res5);
+*/
+const res6 = roles.splice(2, 1);
+console.log(roles);
+console.log(res6);
 
-//const res6 = roles.splice(2, 1);
-//console.log(roles);
-//console.log(res6);
-
-//const res7 = roles.splice(-1);
-//console.log(roles);
-//console.log(res7);
+const res7 = roles.splice(-1);
+console.log(roles);
+console.log(res7);
 
 // reverse
 const res8 = roles.reverse();

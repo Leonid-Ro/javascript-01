@@ -1,5 +1,5 @@
 const roles = ['admin', 'user', 'manager'];
-const elIndex = roles.indexOf('admin');// Возвращает номер элемента в массиве.
+const elIndex = roles.indexOf('manager');// Возвращает номер элемента в массиве.
 console.log(elIndex);
 const elIndex1 = roles.indexOf('superuser');
 console.log(elIndex1);

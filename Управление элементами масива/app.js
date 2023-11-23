@@ -14,7 +14,7 @@ console.log(friend1);// Возвращает длинну обновленног
 console.log(users);
 
 const friend2 = users.pop();// Удаляет последний элемент
-console.log(friend2);// Возвращает поледний элемент
+console.log(friend2);// Возвращает последний элемент
 console.log(users);
 
 const friend3 = users.shift();// Удаляет первый элемент
